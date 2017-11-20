@@ -1,0 +1,84 @@
+{
+    "author": "dangerouswoo",
+    "dependencies": {},
+    "keywords": [],
+    "name": "japanesedigitalwatch2",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "JapaneseDigitalWatch2 Holiday Law of Japan",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "NEWS_REQUEST_KEY": 1002,
+            "NEWS_RES_TITLE_KEY0": 11,
+            "WEATHER_CITY_KEY": 3,
+            "WEATHER_ICON_KEY": 1,
+            "WEATHER_REQUEST_KEY": 1001,
+            "WEATHER_TEMPERATURE_KEY": 2
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/backimgc.png",
+                    "name": "IMAGE_BACK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[ -~]",
+                    "file": "fonts/Open 24 Display St.ttf",
+                    "name": "FONT_OPEN_16",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ -~]",
+                    "file": "fonts/Open 24 Display St.ttf",
+                    "name": "FONT_OPEN_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ -~]",
+                    "file": "fonts/Open 24 Display St.ttf",
+                    "name": "FONT_OPEN_52",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ -~]",
+                    "file": "fonts/moongraph.ttf",
+                    "name": "FONT_MOONGRAPH_30",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ -~]",
+                    "file": "fonts/digital.ttf",
+                    "name": "FONT_DIGITAL_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ -~]",
+                    "file": "fonts/digital.ttf",
+                    "name": "FONT_DIGITAL_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "79466b43-e7bc-40d0-a6c2-99b1b9370aed",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.2.0"
+}
